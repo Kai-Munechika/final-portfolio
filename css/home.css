@@ -11,8 +11,57 @@
 
 }
 
-#content h1 {
+#header-name {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: block;
+    font-size: 5em;
+    letter-spacing: 0.07em;
     text-align: center;
-
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px;
 }
 
+#content p {
+    text-align: center;
+    font-size: 2em;
+}
+
+#portfolio-button {
+    display: block;
+    margin: 60px auto 0;
+    width: 14%;
+    height: 50px;
+    border: none;
+    background: #db5f17;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+hr {
+    display: block;
+    margin: -10px auto;
+    margin-bottom: 1em;
+    max-width: 842px;
+}
+
+@media screen and (max-width: 960px) {
+    #header-name {
+        font-size: 8vw;
+    }
+
+    #portfolio-button {
+        width: 134px;
+    }
+
+    #content p {
+        font-size: 1.5em;
+    }
+
+    hr {
+        width: 90vw;
+    }
+}

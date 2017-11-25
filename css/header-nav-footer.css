@@ -33,8 +33,13 @@ header {
     -moz-box-shadow:0 0 5px 0 black;
     -webkit-box-shadow:0 0 5px 0 black;
     z-index: 2;
-    position: relative;
+
+    /* fix to top of screen */
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%;
+    top: 0; /* Position the navbar at the bottom of the page */
 }
+
 nav {
     font-family: 'Montserrat', sans-serif;
     background: #fafafa;

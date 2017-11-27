@@ -11,7 +11,7 @@
 
 }
 
-#header-name {
+#header-name, #tagline2 {
     font-family: 'Montserrat', sans-serif;
     color: white;
     display: block;
@@ -23,9 +23,14 @@
     margin: 20px;
 }
 
+#tagline2 {
+    margin: 8px;
+    font-size: 1.5em;
+}
+
 #content p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #portfolio-button {
@@ -37,7 +42,7 @@
     background: #db5f17;
     color: white;
     letter-spacing: 2px;
-    font-size: 0.9em;
+    font-size: 1em;
     text-transform: uppercase;
 }
 

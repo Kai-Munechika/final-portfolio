@@ -84,3 +84,15 @@ textarea.input {
     font-size: 0.9em;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 630px) {
+    #wrapper {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    #submit {
+        width: 177.6px;
+    }
+}

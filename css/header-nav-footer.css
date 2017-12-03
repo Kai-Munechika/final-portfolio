@@ -27,6 +27,11 @@ header {
     /*letter-spacing: 0.1em;*/
 }
 
+hr {
+    border-color: white;
+}
+
+
 /* nav */
 .shadow {
     box-shadow: 0 0 5px 0;
@@ -61,7 +66,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: black;
+    color: #999;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -69,6 +74,25 @@ nav ul li a {
     padding: 15px;
 
 }
+
+@media screen and (max-width: 960px) {
+    nav ul li a {
+        font-size: calc(9px + 0.25vw);
+        max-font-size: 12px;
+    }
+}
+
+nav ul li a:hover {
+    /*background: #db5f17;*/
+    color: black;
+}
+
+/* underline the selected link in navigation*/
+#current-link {
+    border-bottom: black solid 3px;
+    color: black;
+}
+
 
 /* footer */
 footer {

@@ -25,6 +25,8 @@
 #container {
     max-width: 900px;
     margin: auto;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 #subheader {

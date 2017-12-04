@@ -1,0 +1,15 @@
+#content {
+    font-family: 'Karla', sans-serif;
+    background: #1e88e5; /* if gradient doesn't work*/
+    background: linear-gradient(to right, #114C80, #1972BF, #2197FF); /* Standard syntax */
+    color: white;
+    padding-top: 240px;
+    padding-left: 16px;
+
+    height: calc(84vh - 132px);
+}
+
+
+#content a {
+    color: white;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Me | Kai Munechika</title>
+    <title>About | Kai Munechika</title>
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic" rel="stylesheet"
           type="text/css">
@@ -29,24 +29,34 @@
 
 <div id="content">
 
-    <a id="about-me-header">About Me</a>
+    <a id="about-me-header">About</a>
 
-    <img src="../images/cropped-0.jpg" alt="Kai Munechika" height="788" width="788">
+    <div id="container">
+        <img src="../images/cropped-2.jpg" alt="Kai Munechika">
 
-    <p id="about-me-text">Fix this later: Hi! I'm Kai, and I'm currently a Junior studying Computer Science at Boston University.
-        I've been learning Android development outside of my classes since the fall of '16, and I love it; I've found that being able to take my code with me/my phone wherever I go is gratifying(?). I enjoy writing apps that address some pain-point that either my family, friends, or I come across, to make life easier.
-        Whenever I'm back home in Hawaii, I like hanging out on the beach, spending time with family, and jamming out on my ukulele. </p>
+        <h1 id="subheader">Hi, I'm Kai.</h1>
+        <p class="about-me-text">I am a third-year student at Boston University, studying Computer Science.
+            I have experience in developing software for the web and native apps for Android devices - from static pages to full-stack applications.
+        <p class="about-me-text"> I've been learning Android development outside of my classes since the fall of '16,
+            and I love it; I enjoy the framework, and being able to take my code with me/my phone wherever I go is extremely gratifying. I'm always looking to create apps that solve some real-world problem, no matter how small, to make life easier for either myself or the people around me.
+        </p>
+        <p class="about-me-text">
+            Whenever I can, I enjoy hanging out on a beach, jamming out on my ukulele, and playing video games.
+        </p>
 
-    <form action="contact.html">
-        <input type="submit" value="Contact">
-    </form>
+        <form action="contact.html">
+            <input id="button" type="submit" value="Contact">
+        </form>
+    </div>
 
 
 </div>
 
 
 <footer>
-    <p><span id="copyright-symbol">&#9400;</span> Kai Munechika 2017</p>
+    <p>Copyright <span id="copyright-symbol">&#9400;</span>
+        <script>document.write(new Date().getFullYear())</script>   <!-- the current year -->
+        Kai Munechika</p>
 </footer>
 </body>
 </html>

@@ -4,11 +4,13 @@
 #content {
     font-family: 'Karla', sans-serif;
     background: #1e88e5; /* if gradient doesn't work*/
+    background: -webkit-linear-gradient(#114C80, #1972BF, #2197FF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#114C80, #1972BF, #2197FF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#114C80, #1972BF, #2197FF); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #114C80, #1972BF, #2197FF); /* Standard syntax */
     color: white;
     padding-top: 325px;
     padding-bottom: 392px;
-
 }
 
 #header-name, #tagline2 {
